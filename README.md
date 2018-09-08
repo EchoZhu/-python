@@ -24,9 +24,8 @@
   - 全部改成大写.upper(),全部改成小写.lower()
   - 合并拼接字符串
   ```python 
-       age = 17
-       message = "I am " + age + "years old."
-       print(message)
+     name = 'irene'
+     print(name+' is my girlfriend.')
   ```
   - 制表符（\t）、换行符(\n)
   - 删除字符串空白.strip(), .lstrip(), .rstrip()
