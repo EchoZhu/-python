@@ -23,7 +23,12 @@
   - 将字符串第一个字母改成大写-> .title()
   - 全部改成大写.upper(),全部改成小写.lower()
   - 合并拼接字符串
-  - 制表符、换行符
+  ```python 
+       age = 17
+       message = "I am " + age + "years old."
+       print(message)
+  ```
+  - 制表符（\t）、换行符(\n)
   - 删除字符串空白.strip(), .lstrip(), .rstrip()
 
 ## lesson004 数字
