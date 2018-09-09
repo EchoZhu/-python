@@ -61,7 +61,7 @@
     - Beautiful is better than ugly：代码可以写的很漂亮，无论是格式上还是解决问题的思路，写一段漂亮的代码，是python程序员的目标。
     - Explicit is better than implicit：显式的表达比隐晦的表示好。直接一点，用最直接的表达方式和解决问题的方式去解决问题。
       
-## lesson005 列表
+## lesson006 列表
 
 1. 列表：由一系列按照特定顺序排列的元素组成，在python中用[]表示列表
 
