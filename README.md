@@ -53,7 +53,7 @@
     - 写注释的目的：阐述代码要做什么， 以及是如何做的。
       - 人是会遗忘的，注释帮你在很久之后重看之前写过的代码，更快的理清逻辑。
       - 以自然语言辅助代码进行说明，更容易阅读理解。
-      - 与他人合作，一定要写代码，让别人更容易理解你的思路。
+      - 与他人合作，一定要写注释，让别人更容易理解你的思路。
       - 人人都希望自己读的代码中包含注释，所以，你写代码也一定要多写简洁，清晰的注释。
       - 不用担心注释写太多，更要时刻提醒自己注释写的是不是太少了
 2. python编程准则
@@ -61,4 +61,59 @@
     - Beautiful is better than ugly：代码可以写的很漂亮，无论是格式上还是解决问题的思路，写一段漂亮的代码，是python程序员的目标。
     - Explicit is better than implicit：显式的表达比隐晦的表示好。直接一点，用最直接的表达方式和解决问题的方式去解决问题。
       
+## lesson005 列表
+
+1. 列表：由一系列按照特定顺序排列的元素组成，在python中用[]表示列表
+
+```
+weekday = ['Monday','Tuesday','Wednesday','Thursday','Friday']
+print(weekday)
+```
+2. 访问元素
+  - 列表中的元素是有序排列，每个元素对应着一个索引值
+  - 索引值从0开始，而不是从1开始
+  - 列表中最后一个元素的索引值是-1，倒数第二个是-2
+  
+   ```
+   weekday = ['Monday','Tuesday','Wednesday','Thursday','Friday']
+   print(weekday[0])
+   print(weekday[-1])
+   ```
+  - 使用列表中的某个值
+     ```
+     weekday = ['Monday','Tuesday','Wednesday','Thursday','Friday']
+     today = weekday[3]
+     print('Today is '+today+'.')
+     ```
+3. 修改、添加和删除元素
+  - 列表是动态的，列表中的元素会随着程序的运行发生变化
+  - 修改列表某个元素的值
+     ```
+     weekday = ['Monday','Sunday','Wednesday','Thursday','Friday']
+     print('before modify weekday is \n'+str(weekday))
+     weekday[1] = 'Tuesday'
+     print('after modify weekday is \n'+str(weekday))
+     ```
+  - 向列表中增加元素,向列表末尾添加元素
+     ```
+      weekday = ['Monday','Tuesday','Wednesday','Thursday']
+      print('before add Friday weekday is \n'+str(weekday))
+      weekday.append('Friday')
+      print('after add Friday weekday is \n'+str(weekday))
+     ```
+  - 向列表中增加元素,向列表中某个位置插入元素
+   ``` 
+    weekday = ['Monday','Tuesday','Wednesday','Friday']
+    print('before insert Thursday weekday is \n'+str(weekday))
+    weekday.insert(3,'Thursday')
+    print('after insert Thursday weekday is \n'+str(weekday))
+    
+  ```
+ 
+  
+
+
+
+
+
   
