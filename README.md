@@ -65,7 +65,7 @@
 
 1. 列表：由一系列按照特定顺序排列的元素组成，在python中用[]表示列表
 
-```
+```python 
 weekday = ['Monday','Tuesday','Wednesday','Thursday','Friday']
 print(weekday)
 ```
@@ -74,13 +74,13 @@ print(weekday)
   - 索引值从0开始，而不是从1开始
   - 列表中最后一个元素的索引值是-1，倒数第二个是-2
   
-   ```
+   ```python 
    weekday = ['Monday','Tuesday','Wednesday','Thursday','Friday']
    print(weekday[0])
    print(weekday[-1])
    ```
   - 使用列表中的某个值
-     ```
+     ```python 
      weekday = ['Monday','Tuesday','Wednesday','Thursday','Friday']
      today = weekday[3]
      print('Today is '+today+'.')
@@ -88,27 +88,27 @@ print(weekday)
 3. 修改、添加和删除元素
   - 列表是动态的，列表中的元素会随着程序的运行发生变化
   - 修改列表某个元素的值
-     ```
+     ```python 
      weekday = ['Monday','Sunday','Wednesday','Thursday','Friday']
      print('before modify weekday is \n'+str(weekday))
      weekday[1] = 'Tuesday'
      print('after modify weekday is \n'+str(weekday))
      ```
   - 向列表中增加元素,向列表末尾添加元素
-     ```
+     ```python 
       weekday = ['Monday','Tuesday','Wednesday','Thursday']
       print('before add Friday weekday is \n'+str(weekday))
       weekday.append('Friday')
       print('after add Friday weekday is \n'+str(weekday))
      ```
   - 向列表中增加元素,向列表中某个位置插入元素
-   ``` 
-    weekday = ['Monday','Tuesday','Wednesday','Friday']
-    print('before insert Thursday weekday is \n'+str(weekday))
-    weekday.insert(3,'Thursday')
-    print('after insert Thursday weekday is \n'+str(weekday))
+    ```python  
+      weekday = ['Monday','Tuesday','Wednesday','Friday']
+      print('before insert Thursday weekday is \n'+str(weekday))
+      weekday.insert(3,'Thursday')
+      print('after insert Thursday weekday is \n'+str(weekday))
     
-  ```
+    ```
  
   
 
