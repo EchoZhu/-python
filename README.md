@@ -109,9 +109,66 @@ print(weekday)
       print('after insert Thursday weekday is \n'+str(weekday))
     
     ```
- 
-  
-
+  - 删除
+    1. 删除列表中的某个元素 -> del
+        ```python  
+        weekday = ['Monday','Sunday','Wednesday','Thursday','Friday','Saturday']
+        #第一次打印
+        print(weekday)
+        #删除列表中索引值为-1的元素，也就是最后一个元素'Saturday'
+        del weekday[-1]
+        #第二次打印，删除最后一个元素之后的列表
+        print(weekday)
+        #使用del 语句将值从列表中删除后，你就无法再访问它了。
+        ```
+      2. 弹出列表中的某个元素 -> pop
+          ```python  
+          weekday = ['Monday','Sunday','Wednesday','Thursday','Friday','Saturday']
+          #.pop()的作用是取出列表中最后一个元素
+          # 这句的操作包括两部分：1，从weekday列表中取出最后一个元素。2，把最后一个元素赋值给Saturday这个变量
+          saturday = weekday.pop()
+          #打印weekday列表
+          print(weekday)
+          #打印saturday这个变量
+          print(saturday)
+          # 问：当前列表中是否还有'Saturday'这个元素 ？
+          # 答：没有了
+          
+          # .pop()默认弹出列表最后一个元素，但是可以弹出指定索引值的元素
+          weekday = ['Monday','Irene','Sunday','Wednesday','Thursday','Friday']
+          my_girlfriend = weekday.pop(1)
+          #打印weekday列表
+          print(weekday)
+          #打印my_girlfriend这个变量
+          print(my_girlfriend)
+          ```
+      > 如果你要从列表中删除一个元素，且不再以任何方式使用它，就使用del 语句;
+      如果你要在删除元素后还能继续使用它，就使用方法pop() 。
+      3. 根据列表某个元素的值，删除该元素 -> remove
+      
+      del和pop的操作都是在已知列表中需要删除的元素的索引值的情况下，当需要删除的元素的索引值未知时，可以使用remove方法
+        
+      ```python       
+      weekday = ['Monday','Sunday','Wednesday','Thursday','Friday','Saturday']
+      #第一次打印
+      print(weekday)
+      # 删除'Saturday'元素
+      weekday.remove('Saturday')
+      #第二次打印，删除最后一个元素之后的列表
+      print(weekday)
+      ```
+     
+      注意，如果需要删除的值在列表中存在多个，remove只删除第一个出现的值 
+          
+      ```python
+      weekday = ['Saturday','Saturday','Monday','Sunday','Wednesday','Thursday','Friday','Saturday']
+      #第一次打印
+      print(weekday)
+      # 删除'Saturday'元素
+      weekday.remove('Saturday')
+      #第二次打印，删除最后一个元素之后的列表
+      print(weekday)
+      ```
 
 
 
