@@ -169,7 +169,40 @@ print(weekday)
       #第二次打印，删除最后一个元素之后的列表
       print(weekday)
       ```
-
+  - 组织列表
+    1. 将列表中的元素进行永久排序 -> .sort()
+      ```python
+      alphabets = ['b','c','a','d']
+      print('排序前的列表：'+str(alphabets))
+      #sort方法可以改变列表中元素的按照字母表顺序排序，并且这个改变是永久性的
+      alphabets.sort()
+      print('排序后的列表：'+str(alphabets))
+      #sort方法中传入参数：reverse=True，则可以将列表中的元素按照字母表逆序排列
+      #alphabets.sort(reverse=True)
+      #print('逆序排序后的列表：'+str(alphabets))
+      ```
+    2. 将列表中的元素进行临时排序 -> sorted
+      ```python
+      alphabets = ['b','c','a','d']
+      print('排序前的列表：'+str(alphabets))
+      #sorted（）可以临时为列表中的元素按照字母表顺序排序  
+      print('排序后的列表：'+str(sorted(alphabets)))
+      print('列表值：'+str(alphabets))
+      ```
+    3. 反转列表 -> .reverse()
+      ```python
+      words = ['pretty','so','is','Irene']
+      print('反转前的列表：'+str(words))
+      #.reverse()可永久性的反转列表中元素的排列位置
+      words.reverse()
+      print('反转后的列表：'+str(words))
+      ```
+    4. 确定列表长度
+      ```python
+      words = ['Irene', 'is', 'so', 'pretty']
+      length = len(words)
+      print('列表的长度是：'+str(length)) 
+      ```   
 
 
 
