@@ -1,5 +1,5 @@
 ## lesson003 字符串
-[视频教程](https://www.bilibili.com/video/av31231489)
+<a href="https://www.bilibili.com/video/av31231489" target="_blank">视频教程</a>
 1. 复习print
   - ".py" -> python解释器
   - 语法突出
