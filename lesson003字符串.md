@@ -26,3 +26,7 @@
   ```
   - 制表符（\t）、换行符(\n)
   - 删除字符串空白.strip(), .lstrip(), .rstrip()
+
+  [下一课](https://github.com/EchoZhu/-python/blob/master/lesson004数字.md)
+
+  [回到目录](https://github.com/EchoZhu/-python/blob/master/README.md)

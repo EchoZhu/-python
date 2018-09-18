@@ -11,3 +11,7 @@
     - 在终端输入：```import this```
     - Beautiful is better than ugly：代码可以写的很漂亮，无论是格式上还是解决问题的思路，写一段漂亮的代码，是python程序员的目标。
     - Explicit is better than implicit：显式的表达比隐晦的表示好。直接一点，用最直接的表达方式和解决问题的方式去解决问题。
+
+  [下一课](https://github.com/EchoZhu/-python/blob/master/lesson006列表.md)
+
+  [回到目录](https://github.com/EchoZhu/-python/blob/master/README.md)

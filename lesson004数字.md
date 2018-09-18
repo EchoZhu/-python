@@ -14,3 +14,7 @@
   ```
   - 复习 错误提示
   - str()
+
+  [下一课](https://github.com/EchoZhu/-python/blob/master/lesson005注释和python编程的准则.md)
+
+  [回到目录](https://github.com/EchoZhu/-python/blob/master/README.md)
