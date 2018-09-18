@@ -1,4 +1,5 @@
 ## lesson004 数字
+[视频教程](https://www.bilibili.com/video/av31351569)
 1. 整数
   - 加（+ ） 减（- ） 乘（* ） 除（/ ） 运算
   - Python使用两个乘号表示乘方运算
