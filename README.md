@@ -25,6 +25,7 @@
 2. 访问元素
 3. 修改、添加和删除元素
  
+ ## [lesson007 遍历列表](https://github.com/EchoZhu/-python/blob/master/lesson007遍历列表.md)
  
 
 
