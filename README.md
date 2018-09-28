@@ -27,5 +27,5 @@
  
  ## [lesson007 遍历列表](https://github.com/EchoZhu/-python/blob/master/lesson007遍历列表.md)
  
-
+ ## [lesson008 创建数字列表](https://github.com/EchoZhu/-python/blob/master/lesson008创建数字列表.md)
 
