@@ -1,7 +1,9 @@
 ## lesson006 列表
-[视频教程01](https://www.bilibili.com/video/av31499460?_blank)
-[视频教程02](https://www.bilibili.com/video/av31948638?_blank)
-[视频教程03](https://www.bilibili.com/video/av31950238?_blank)
+[视频教程01(右击，在新标签页中打开)](https://www.bilibili.com/video/av31499460?_blank)
+
+[视频教程02(右击，在新标签页中打开)](https://www.bilibili.com/video/av31948638?_blank)
+
+[视频教程03(右击，在新标签页中打开)](https://www.bilibili.com/video/av31950238?_blank)
 1. 列表：由一系列按照特定顺序排列的元素组成，在python中用[]表示列表
 
 ```python 

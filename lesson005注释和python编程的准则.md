@@ -1,5 +1,5 @@
 ## lesson005 注释和python编程的准则
-[视频教程](https://www.bilibili.com/video/av31351759?_blank)
+[视频教程(右击，在新标签页中打开)](https://www.bilibili.com/video/av31351759?_blank)
 1. 注释
     - 用#表示注释的开始，井号后面的内容都会被Python解释器忽略。
     - 写注释的目的：阐述代码要做什么， 以及是如何做的。
