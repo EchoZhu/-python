@@ -20,3 +20,15 @@ print(numbers)
 ```
 
 > 如果想生成一个3,4,5,6,7的列表，该怎么实现呢？
+
+### 数字列表相关函数 max，min，sum
+
+```python
+digits = [1,2,3,4,5]
+mindigit = min(digits)
+print(mindigit)
+maxdigit = max(digits)
+print(maxdigit)
+sumdigits = sum(digits)
+print(sumdigits)
+```
